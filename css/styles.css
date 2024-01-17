@@ -772,6 +772,7 @@ input[placeholder="E-mail"] {
 
 .modal-input:focus {
   border-color: var(--iris);
+  fill: var(--iris);
 }
 
 .input-icon {
