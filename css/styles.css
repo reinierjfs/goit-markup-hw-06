@@ -627,7 +627,7 @@ img {
   background-color: transparent;
   font-size: 12px;
   line-height: 1.5;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.04em;
   padding-left: 16px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -654,6 +654,10 @@ input[placeholder="E-mail"] {
   background-color: var(--iris);
   border: none;
   border-radius: 4px;
+}
+
+.footer-form-icon {
+  margin-left: 16px;
 }
 
 /* HW5 - MODAL WINDOW */
