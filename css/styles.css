@@ -560,6 +560,8 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
+  /* BELOW NOT IN CRITERIA */
+  justify-content: space-between;
 }
 
 .wrap-logo {
