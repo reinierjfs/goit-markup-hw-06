@@ -613,6 +613,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--white);
+  /* BELOW NOT IN CRITERIA */
+  margin-left: 24px;
 }
 
 .footer-form-info {
@@ -632,6 +634,8 @@ img {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--white);
+  /* BELOW NOT IN CRITERIA */
+  margin-left: 24px;
 }
 
 input[placeholder="E-mail"] {
