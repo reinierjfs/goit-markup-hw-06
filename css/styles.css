@@ -769,13 +769,20 @@ input[placeholder="E-mail"] {
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: inherit;
 }
 
-.modal-input:focus {
-  border-color: var(--iris);
+.modal-input:focus,
+.modal-input:hover,
+.label-comment-text:hover,
+.label-comment-text:focus {
+  /* border-color: var(--iris); */
+  outline: none;
+  border: 1px solid var(--iris);
 }
 
 .input-icon {
+  fill: var(--navy-blue);
   position: absolute;
   left: 16px;
   top: 50%;
@@ -807,8 +814,13 @@ input[placeholder="E-mail"] {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.label-comment-text:focus {
+/* .label-comment-text:focus {
   border-color: var(--iris);
+} */
+
+.modal-input:hover + .input-icon,
+.modal-input:focus + .input-icon {
+  fill: var(--iris);
 }
 
 .modal-form-check {
