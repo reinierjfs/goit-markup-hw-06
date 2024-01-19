@@ -814,10 +814,6 @@ input[placeholder="E-mail"] {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .label-comment-text:focus {
-  border-color: var(--iris);
-} */
-
 .modal-input:hover + .input-icon,
 .modal-input:focus + .input-icon {
   fill: var(--iris);
@@ -847,6 +843,8 @@ input[placeholder="E-mail"] {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  /* BELOW NOT IN CRITERIA */
+  margin-right: 8px;
 }
 
 .form-check-input:checked + .user-term > .user-term-text {
@@ -863,9 +861,6 @@ input[placeholder="E-mail"] {
   display: block;
   min-width: 169px;
   height: 56px;
-  /* BELOW NOT IN CRITERIA */
-  padding: 16px 32px;
-  margin: 0, auto;
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -877,7 +872,11 @@ input[placeholder="E-mail"] {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* BELOW NOT IN CRITERIA */
+  padding: 16px 32px;
+  margin: 0 auto;
   text-align: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .heading-modal {
